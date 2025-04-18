@@ -1,0 +1,13 @@
+prefix=/home/gaurav/Projects/Plant Disase/venvplant
+exec_prefix=/home/gaurav/Projects/Plant Disase/venvplant
+libdir=/home/gaurav/Projects/Plant Disase/venvplant/lib
+sharedlibdir=/home/gaurav/Projects/Plant Disase/venvplant/lib
+includedir=/home/gaurav/Projects/Plant Disase/venvplant/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
